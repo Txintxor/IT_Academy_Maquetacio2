@@ -12,13 +12,13 @@
 <body>
   <!-- CABECERA Y NAVBAR -->
   <header class="container mb-5" id="head">
-    <nav class="navbar navbar-expand-lg">
-      <div class="col-12 col-lg-6">
+    <nav class="navbar navbar-expand-xl">
+      <div class="col-12 col-xl-6">
         <a class="navbar-brand" href="#">
           <img src="../img/logo-bookmark.svg" alt="bookmark logo">
         </a>
       </div>
-      <div class="col-12 col-lg-6" id="menu">
+      <div class="col-12 col-xl-6" id="menu">
         <div class="col-2" id="collapseButton">
           <a class="navbar-toggler" data-bs-toggle="collapse" href="#navMenuCollapse" role="button"
             aria-expanded="false" aria-controls="navMenuCollapse">
@@ -41,11 +41,11 @@
   </header>
 
   <!-- PRIMERA SECCIÓN -->
-  <!--AÑADI UNA VARIABLE SPACER MÁS, CON EL NUMERO 6, PARA PODER SEPARAR LOS BLOQUES-->
-  <section class="container-fluid  mt-1 mt-lg-6" id="firstSect">
-    <div class="row  mt-1 mt-lg-6">
+  <!--AÑADï MÁS VARIABLES A SPACER EN _variables.scss PARA TENER MÁS OPCIONES DE SEPARACIÓN-->
+  <section class="container-fluid  mt-1 mt-xl-6" id="firstSect">
+    <div class="row  mt-1 mt-xl-6">
       <!--IZQUIERDA-->
-      <article class="col-12 col-lg-6 mt-1 mt-lg-6 mb-5">
+      <article class="col-12 col-xl-6 mt-1 mt-xl-9 mb-5">
         <div class="container">
           <h1 class="text-center mb-5">A Simple Bookmark Manager</h1>
           <p class="text-center mb-5 text-muted">Quietooor fistro ese pedazo de ese pedazo de sexuarl no te digo trigo
@@ -56,58 +56,66 @@
             condemor llevame al sircoo.
             Jarl!!</p>
           <div class="container-fluid d-flex flex-row justify-content-evenly">
-            <button type="button" class="btn btn-lg btn-primary shadow ">Get it on Chrome</button>
-            <button type="button" class="btn btn-lg btn-gray shadow  ">Get it on Firefox</button>
+            <button type="button" class="btn btn-xl btn-primary shadow ">Get it on Chrome</button>
+            <button type="button" class="btn btn-xl btn-gray shadow  ">Get it on Firefox</button>
           </div>
         </div>
       </article>
       <!--DERECHA-->
-      <article class="col-12 col-lg-6 mt-3 d-flex justify-content-center">
-        <img class="border border-dark border-5 border-radius-lg rounded img-fluid"
+      <article class="col-12 col-xl-6 mt-3 d-flex justify-content-center">
+        <img class="border border-dark border-5 border-radius-xl rounded img-fluid"
           src="../img/illustration-features-tab-1.svg" alt="picture 1">
       </article>
     </div>
   </section>
+
   <!--SEGUNDA SECCIÓN-->
-  <section class="container-fluid d-flex flex-column justify-content-evenly  mt-1 mt-lg-6" id="secondSect">
+  <section class="container-fluid d-flex flex-column justify-content-evenly  mt-1 mt-xl-6" id="secondSect">
+
     <!--ENTRADA-->
-    <article class="container">
-      <h1 class="text-center ">Features</h1>
-      <p class="text-center mt-3 text-muted">Ese pedazo de se calle ustée diodeno llevame al sircoo. Quietooor tiene
-        musho peligro
-        a peich no te digo trigo por no llamarte Rodrigor mamaar pecador por la gloria de mi madre. Va usté muy cargadoo
-        jarl tiene musho peligro de la pradera a wan quietooor. Se calle ustée al ataquerl qué dise usteer pecador a wan
-        va usté muy cargadoo.</p>
+    <article class=" d-flex justify-content-around" id="">
+      <article class="col-12 col-xl-8 ">
+        <h1 class="text-center mb-5">Features</h1>
+        <p class="text-center text-muted">Lorem fistrum ahorarr mamaar mamaar. Pupita quietooor quietooor hasta luego
+          Lucas ese hombree. A gramenawer hasta luego Lucas está la cosa muy malar torpedo ese pedazo de te va a hasé
+          pupitaa. Ese que llega te va a hasé pupitaa quietooor amatomaa. Tiene musho peligro diodenoo llevame al sircoo
+          se calle ustée. No te digo trigo por no llamarte Rodrigor te voy a borrar el cerito torpedo diodenoo pecador
+          amatomaa benemeritaar sexuarl se calle ustée. Caballo blanco caballo negroorl diodenoo está la cosa muy malar
+          benemeritaar llevame al sircoo quietooor benemeritaar ese hombree torpedo. Tiene musho peligro a wan ahorarr
+          la caidita me cago en tus muelas a wan a gramenawer.
+        </p>
+      </article>
+      </div>
     </article>
     <!--COMPONENT TAB-->
-    <article class="container mt-1 mt-lg-6">
+    <article class="container my-5 ">
       <div class="col">
         <ul class="nav nav-tabs justify-content-center">
-          <li class="col-10 col-lg-2"><a href="#alpha" class="nav-link text-center fs-4 fw-bold text-muted"
+          <li class="col-10 col-xl-2"><a href="#alpha" class="nav-link text-center fs-4 fw-bold text-muted"
               data-toggle="tab">Alpha</a></li>
-          <li class="col-10 col-lg-2"><a href="#bravo" class="nav-link text-center fs-4 fw-bold text-muted"
+          <li class="col-10 col-xl-2"><a href="#bravo" class="nav-link text-center fs-4 fw-bold text-muted"
               data-toggle="tab">Bravo</a></li>
-          <li class="col-10 col-lg-2"><a href="#charlie" class="nav-link text-center fs-4 fw-bold text-muted"
+          <li class="col-10 col-xl-2"><a href="#charlie" class="nav-link text-center fs-4 fw-bold text-muted"
               data-toggle="tab">Charlie</a></li>
         </ul>
       </div>
 
       <!--TAB 1-->
-      <div class="tab-content my-tab">
+      <div class="tab-content my-tab mb-5">
         <div class="tab-pane active" id="alpha">
-          <article class="container-fluid row">
-            <div class="col-12 col-md-6 mt-1 mt-lg-6 d-flex justify-content-center">
+          <article class="container row">
+            <div class="col-12 col-xl-6 mt-5 d-flex justify-content-center">
               <img class="img-fluid" src="../img/illustration-features-tab-1.svg" alt="picture 1">
             </div>
-            <div class="col-12 col-md-6 mt-1 mt-lg-6 align-self-center ">
+            <div class="col-12 col-xl-6 mt-5 align-self-center ">
               <h1 class="text-center mb-5">Bookmark in one click</h1>
-              <p class="text-left text-muted">Lorem fistrum no puedor diodenoo llevame al sircoo fistro quietooor
+              <p class="text-center text-muted">Lorem fistrum no puedor diodenoo llevame al sircoo fistro quietooor
                 caballo blanco
                 caballo negroorl.
                 Diodenoo qué dise usteer jarl la caidita te voy a borrar el cerito diodenoo condemor pupita hasta luego
                 Lucas ese pedazo de ahorarr. Tiene musho peligro ese hombree se calle ustée qué dise usteer.</p>
               <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-lg btn-primary shadow align-self-center ">More info</button>
+                <button type="button" class="btn btn-xl btn-primary shadow align-self-center ">More info</button>
               </div>
             </div>
           </article>
@@ -115,19 +123,19 @@
 
         <!--TAB 2-->
         <div class="tab-pane" id="bravo">
-          <article class="container-fluid row">
-            <div class="col-12 col-md-6 mt-1 mt-lg-6 d-flex justify-content-center">
+          <article class="container row">
+            <div class="col-12 col-xl-6 mt-5 d-flex justify-content-center">
               <img class=" img-fluid" src="../img/illustration-features-tab-1.svg" alt="picture 1">
             </div>
-            <div class="col-12 col-md-6 mt-1 mt-lg-6 align-self-center ">
+            <div class="col-12 col-xl-6 mt-5 align-self-center">
               <h1 class="text-center mb-5">Bookmark in two click</h1>
-              <p class="text-left text-muted">Lorem fistrum no puedor diodenoo llevame al sircoo fistro quietooor
+              <p class="text-center text-muted">Lorem fistrum no puedor diodenoo llevame al sircoo fistro quietooor
                 caballo blanco
                 caballo negroorl.
                 Diodenoo qué dise usteer jarl la caidita te voy a borrar el cerito diodenoo condemor pupita hasta luego
                 Lucas ese pedazo de ahorarr. Tiene musho peligro ese hombree se calle ustée qué dise usteer.</p>
               <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-lg btn-primary shadow align-self-center ">More info</button>
+                <button type="button" class="btn btn-xl btn-primary shadow align-self-center ">More info</button>
               </div>
             </div>
           </article>
@@ -135,19 +143,19 @@
 
         <!--TAB 3-->
         <div class="tab-pane" id="charlie">
-          <article class="container-fluid row">
-            <div class="col-12 col-md-6 mt-1 mt-lg-6 d-flex justify-content-center">
+          <article class="container row">
+            <div class="col-12 col-xl-6 mt-5 d-flex justify-content-center">
               <img class=" img-fluid" src="../img/illustration-features-tab-1.svg" alt="picture 1">
             </div>
-            <div class="col-12 col-md-6 mt-1 mt-lg-6 align-self-center ">
+            <div class="col-12 col-xl-6 mt-5 align-self-center">
               <h1 class="text-center mb-5">Bookmark in three click</h1>
-              <p class="text-left text-muted">Lorem fistrum no puedor diodenoo llevame al sircoo fistro quietooor
+              <p class="text-center text-muted">Lorem fistrum no puedor diodenoo llevame al sircoo fistro quietooor
                 caballo blanco
                 caballo negroorl.
                 Diodenoo qué dise usteer jarl la caidita te voy a borrar el cerito diodenoo condemor pupita hasta luego
                 Lucas ese pedazo de ahorarr. Tiene musho peligro ese hombree se calle ustée qué dise usteer.</p>
               <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-lg btn-primary shadow align-self-center ">More info</button>
+                <button type="button" class="btn btn-xl btn-primary shadow align-self-center ">More info</button>
               </div>
             </div>
           </article>
@@ -157,13 +165,148 @@
   </section>
 
 
+  <!--SECCION 3 DESCARGAS-->
+  <section class="container mt-1 mt-xl-9" id="thirdSect">
+    <article class="d-flex justify-content-around" id="">
+      <div class="col-12 col-xl-8 ">
+        <h1 class="text-center mb-5">Features</h1>
+        <p class="text-center text-muted">Lorem fistrum ahorarr mamaar mamaar. Pupita quietooor quietooor hasta luego
+          Lucas ese hombree. A gramenawer hasta luego Lucas está la cosa muy malar torpedo ese pedazo de te va a hasé
+          pupitaa. Ese que llega te va a hasé pupitaa quietooor amatomaa. Tiene musho peligro diodenoo llevame al sircoo
+          se calle ustée. No te digo trigo por no llamarte Rodrigor te voy a borrar el cerito torpedo diodenoo pecador
+          amatomaa benemeritaar sexuarl se calle ustée. Caballo blanco caballo negroorl diodenoo está la cosa muy malar
+          benemeritaar llevame al sircoo quietooor benemeritaar ese hombree torpedo. Tiene musho peligro a wan ahorarr
+          la caidita me cago en tus muelas a wan a gramenawer.
+        </p>
+      </div>
+    </article>
+    </div>
+
+    <!--CARD GROUP-->
+    <article class="container">
+      <div class="mt-5">
+        <div class="row gap-xl-9 d-flex justify-content-center">
+          <!--CARD 1-->
+          <div class="downCard card col-12 col-lg-4 mt-5 mx-sm-6 mx-lg-0 mt-lg-0">
+            <img src="../img/logo-firefox.svg" class="card-img-top p-3 img-responsive" alt="Firefox icon">
+            <div class="card-body d-flex flex-column align-items-center ">
+              <h5 class="card-title text-center">Add to Firefox</h5>
+              <p class="card-text text-center">Minimum Version candemore e nau</p>
+              <a href="#"><button type="button" class="btn btn-xl btn-primary shadow">More
+                  info</button></a>
+            </div>
+          </div>
+          <!--CARD 2-->
+          <div class="downCard card col-12 col-lg-4 mt-5 mx-sm-6 mx-lg-0 mt-lg-0">
+            <img src="../img/logo-chrome.svg" class="card-img-top p-3 img-responsive" alt="Chrome icon">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title text-center">Add to Chrome</h5>
+              <p class="card-text text-center">Minimum Version e uan e peich</p>
+              <a href="#"><button type="button" class="btn btn-xl btn-primary shadow">More
+                  info</button></a>
+            </div>
+          </div>
+          <!--CARD 3-->
+          <div class="downCard card col-12 col-lg-4 mt-5 mx-sm-6 mx-lg-0 mt-lg-0">
+            <img src="../img/logo-opera.svg" class="card-img-top p-3 img-responsive" alt="Opera icon">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title text-center">Add to Opera</h5>
+              <p class="card-text text-center">Minimum Version jarenauer</p>
+              <a href="#"><button type="button" class="btn btn-xl btn-primary shadow">More
+                  info</button></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!--F.A.Q.-->
+  <!--HEADER DE F.A.Q.-->
+  <section class="container mt-9" id="accordion">
+    <article class="d-flex justify-content-around" id="">
+      <div class="col-12 col-xl-8 ">
+        <h1 class="text-center mb-5">Frequently Asked Questions</h1>
+        <p class="text-center text-muted">Lorem fistrum ahorarr mamaar mamaar. Pupita quietooor quietooor hasta luego
+          Lucas ese hombree.
+        </p>
+      </div>
+    </article>
+
+    <!--ACORDEON-->
+    <article class="container d-flex justify-content-center">
+      <div class="accordion col-8 mt-5" id="mariaJesus">
+        <!--ITEM 1-->
+        <div class="accordion-item border-top" id="acorItem1">
+          <h3 class="accordion-header" id="headOne">
+            <button class="accordion-button text-black" type="button" data-bs-toggle="collapse" data-bs-target="#acorOne"
+              aria-expanded="true" aria-controls="acorOne">Preguntame cosas</button>
+          </h3>
+          <div id="acorOne" class="accordion-collapse collapse" aria-labelledby="headOne"
+            data-bs-parent="#mariaJesus">
+            <div class="accordion-body">
+              <h5>
+                Lorem fistrum condemor quietooor torpedo a gramenawer. Tiene musho peligro de la pradera qué dise usteer
+                ese que llega ese hombree pupita fistro te voy a borrar el cerito a wan. Ahorarr mamaar torpedo ese
+                hombree diodenoo caballo blanco caballo negroorl jarl tiene musho peligro. Amatomaa te voy a borrar el
+                cerito tiene musho peligro mamaar papaar papaar benemeritaar amatomaa hasta luego Lucas caballo blanco
+                caballo negroorl torpedo por la gloria de mi madre.
+              </h5>
+            </div>
+          </div>
+        </div>
+        <!--ITEM 2-->
+        <div class="accordion-item border-top" id="acorItem2">
+          <h3 class="accordion-header" id="headTwo">
+            <button class="accordion-button text-black" type="button" data-bs-toggle="collapse" data-bs-target="#acorTwo"
+              aria-expanded="true" aria-controls="acorTwo">Que quieres saber</button>
+          </h3>
+          <div id="acorTwo" class="accordion-collapse collapse" aria-labelledby="headTwo"
+            data-bs-parent="#mariaJesus">
+            <div class="accordion-body">
+              <h5>
+                Lorem fistrum condemor quietooor torpedo a gramenawer. Tiene musho peligro de la pradera qué dise usteer
+                ese que llega ese hombree pupita fistro te voy a borrar el cerito a wan. Ahorarr mamaar torpedo ese
+                hombree diodenoo caballo blanco caballo negroorl jarl tiene musho peligro. Amatomaa te voy a borrar el
+                cerito tiene musho peligro mamaar papaar papaar benemeritaar amatomaa hasta luego Lucas caballo blanco
+                caballo negroorl torpedo por la gloria de mi madre.
+              </h5>
+            </div>
+          </div>
+        </div>
+        <!--ITEM-3-->
+        <div class="accordion-item border-top" id="acorItem3">
+          <h3 class="accordion-header" id="headThree">
+            <button class="accordion-button text-black" type="button" data-bs-toggle="collapse" data-bs-target="#acorThree"
+              aria-expanded="true" aria-controls="acorThree">No seas tan pesao, anda</button>
+          </h3>
+          <div id="acorThree" class="accordion-collapse collapse" aria-labelledby="headThree"
+            data-bs-parent="#mariaJesus">
+            <div class="accordion-body">
+              <h5>
+                Lorem fistrum condemor quietooor torpedo a gramenawer. Tiene musho peligro de la pradera qué dise usteer
+                ese que llega ese hombree pupita fistro te voy a borrar el cerito a wan. Ahorarr mamaar torpedo ese
+                hombree diodenoo caballo blanco caballo negroorl jarl tiene musho peligro. Amatomaa te voy a borrar el
+                cerito tiene musho peligro mamaar papaar papaar benemeritaar amatomaa hasta luego Lucas caballo blanco
+                caballo negroorl torpedo por la gloria de mi madre.
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </article>
+    <div class="d-flex justify-content-center mt-5">
+      <button type="button" class="btn btn-xl btn-primary shadow align-self-center ">More info</button>
+    </div>
+  </section>
+
+
+
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-  <!-- SI CARGO BOOTSTRAP MIN DIRECTO DE CARPETA EL TAB NO FUNCIONA-->
-  <!--<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
