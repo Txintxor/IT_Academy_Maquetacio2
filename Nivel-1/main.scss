@@ -10,13 +10,25 @@ $border-widths: (
   5: 14px,
 );
 $border-radius: 1.5rem;
-$border-color: rgb(49, 49, 49);
+$border-color: rgb(177, 177, 177);
 
 
 $nav-tabs-link-active-color: #fa5959;
 $nav-tabs-link-hover-border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #fa5959;
 
+$card-border-color: rgba(255, 255, 255, 0);
 
+//NO FUNCIONA
+// $card-box-shadow: 0 .5rem 1rem rgba(black, .15); 
+
+$accordion-border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); 
+$accordion-border-radius: 2px;
+$accordion-icon-color: black;
+$accordion-bg: rgba(255, 255, 255, 0);
+$accordion-color: rgba(255, 255, 255, 0);
+$accordion-button-active-bg: rgba(255, 255, 255, 0);
+$accordion-button-focus-border-color: rgba(255, 255, 255, 0);
+$accordion-button-focus-box-shadow: 0;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -47,5 +59,18 @@ a:active {
   color: black ;
 }
 
+.downCard {
+  max-width: 15rem;
+  box-shadow: 9px 3px 15px 4px #69696962;
+  transition: all .3s;
+}
+
+.downCard:hover {
+  max-width: 16rem;
+}
+
+.accordion-button{
+  border:  0;
+}
 
 
