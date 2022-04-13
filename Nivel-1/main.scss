@@ -1,0 +1,51 @@
+$primary: #5265e1;
+$secondary: #fa5959;
+
+$btn-border-radius: 0.35rem;
+$input-btn-padding-y: 0;
+$link-color: black;
+
+$border-width: 3px;
+$border-widths: (
+  5: 14px,
+);
+$border-radius: 1.5rem;
+$border-color: rgb(49, 49, 49);
+
+
+$nav-tabs-link-active-color: #fa5959;
+$nav-tabs-link-hover-border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #fa5959;
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.btn-primary:hover {
+  background-color: white;
+  color: #5265e1;
+  border: solid 2px #5265e1;
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  color: #fa5959;
+  border: solid 2px #fa5959;
+}
+
+.btn-secondary {
+  color: white;
+}
+
+.btn-gray:hover {
+  background-color: white;
+  color: gray;
+  border: solid 2px gray;
+}
+
+a:active {
+  color: black ;
+}
+
+
+

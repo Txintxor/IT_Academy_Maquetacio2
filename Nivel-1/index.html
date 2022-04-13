@@ -1,14 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="main.css">
   <title>Maquetacio Bootstrap Nivell 1</title>
 </head>
+
 <body>
-  
+  <!-- CABECERA Y NAVBAR -->
+  <header class="container mb-5" id="head">
+    <nav class="navbar navbar-expand-lg">
+      <div class="col-12 col-lg-6">
+        <a class="navbar-brand" href="#">
+          <img src="../img/logo-bookmark.svg" alt="bookmark logo">
+        </a>
+      </div>
+      <div class="col-12 col-lg-6" id="menu">
+        <div class="col-2" id="collapseButton">
+          <a class="navbar-toggler" data-bs-toggle="collapse" href="#navMenuCollapse" role="button"
+            aria-expanded="false" aria-controls="navMenuCollapse">
+            <button class="btn btn light">moar</button>
+          </a>
+        </div>
+        <div class="col-10 container collapse navbar-collapse" id="navMenuCollapse">
+          <ul class="navbar-nav gap-4" id="demo">
+            <li class="col nav-item"><a href="#" class="btn btn-gray fw-bold text-muted" aria-current="page">FEATURE</a>
+            </li>
+            <li class="col nav-item"><a href="#" class="btn btn-gray fw-bold text-muted" aria-current="page">PRICING</a>
+            </li>
+            <li class="col nav-item"><a href="#" class="btn btn-gray fw-bold text-muted" aria-current="page">CONTACT</a>
+            </li>
+            <li class="col nav-item"><a href="#" class="btn btn-secondary fw-bold " aria-current="page">LOGIN</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- PRIMERA SECCIÓN -->
+  <!--AÑADI UNA VARIABLE SPACER MÁS, CON EL NUMERO 6, PARA PODER SEPARAR LOS BLOQUES-->
+  <section class="container-fluid  mt-1 mt-lg-6" id="firstSect">
+    <div class="row  mt-1 mt-lg-6">
+      <!--IZQUIERDA-->
+      <article class="col-12 col-lg-6 mt-1 mt-lg-6 mb-5">
+        <div class="container">
+          <h1 class="text-center mb-5">A Simple Bookmark Manager</h1>
+          <p class="text-center mb-5 text-muted">Quietooor fistro ese pedazo de ese pedazo de sexuarl no te digo trigo
+            por no llamarte Rodrigor ese pedazo de jarl a peich al ataquerl a gramenawer. Apetecan a wan te va a hasé
+            pupitaa diodeno por la gloria de mi madre ese hombree fistro te voy a borrar el cerito te voy a borrar el
+            cerito al ataquerl. Llevame al sircoo te va a hasé pupitaa no te digo trigo por no llamarte Rodrigor sexuarl
+            me cago en tus muelas. La caidita tiene musho peligro mamaar qué dise usteer a peich pecador se calle ustée
+            condemor llevame al sircoo.
+            Jarl!!</p>
+          <div class="container-fluid d-flex flex-row justify-content-evenly">
+            <button type="button" class="btn btn-lg btn-primary shadow ">Get it on Chrome</button>
+            <button type="button" class="btn btn-lg btn-gray shadow  ">Get it on Firefox</button>
+          </div>
+        </div>
+      </article>
+      <!--DERECHA-->
+      <article class="col-12 col-lg-6 mt-3 d-flex justify-content-center">
+        <img class="border border-dark border-5 border-radius-lg rounded img-fluid"
+          src="../img/illustration-features-tab-1.svg" alt="picture 1">
+      </article>
+    </div>
+  </section>
+ 
+
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+  <!-- SI CARGO BOOTSTRAP MIN DIRECTO DE CARPETA EL TAB NO FUNCIONA-->
+  <!--<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+
+
+
 </body>
+
+
+
 </html>
