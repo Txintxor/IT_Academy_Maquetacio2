@@ -22,7 +22,7 @@ $nav-tabs-link-hover-border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0)
 $nav-tabs-link-active-border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) $secondary;
 
 $card-border-color: rgba(255, 255, 255, 0);
-
+$card-border-radius: 0;
 
 $accordion-color: $gray;
 $accordion-bg: rgba(255, 255, 255, 0);
@@ -45,6 +45,8 @@ $nav-link-hover-color: $secondary;
 $nav-tabs-link-active-color: $secondary;
 $nav-tabs-link-focus-color: $secondary;
 
+$form-feedback-valid-color: $secondary;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
@@ -55,7 +57,8 @@ $nav-tabs-link-focus-color: $secondary;
 }
 
 .footIcon,
-.btn-secondary {
+.btn-secondary,
+.footBut {
   color: $white;
 }
 
@@ -65,20 +68,16 @@ $nav-tabs-link-focus-color: $secondary;
   border: none;
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover,
+.btn-gray:hover {
   background-color: $white;
   color: $secondary;
   border: solid 2px $secondary;
+  border-color: $secondary;
 }
 
-
-
-.btn-gray:hover,
-.btn-gray:focus,
-.btn-gray:active{
+.footBut:hover {
   color: $secondary;
-  border: solid 2px rgba(255, 255, 255, 0);
-  
 }
 
 .nav-tabs {
@@ -104,4 +103,17 @@ color: $secondary;
   border:  0;
 }
 
+.card-group {
+  > :nth-child(1) {
+    
+  }
+  > :nth-child(2) {
+    position: relative;
+    top: 4rem;
+  }
+  > :nth-child(3) {
+    position: relative;
+    top: 8rem;
+  }
+}
 
