@@ -1,81 +1,82 @@
+
 $primary: #5265e1;
 $secondary: #fa5959;
+$black: #000;
+$gray: #6c757d;
 
 $btn-border-radius: 0.35rem;
 $input-border-radius: .35rem;
 $input-btn-padding-y: 0;
-$link-color: black;
+$link-color: $black;
 
 $border-width: 3px;
 $border-widths: (
   5: 14px,
 );
 $border-radius: 1.5rem;
-$border-color: rgba(255, 255, 255, 0); 
+$border-color: rgba(255, 255, 255, 0) ; 
 
 
-$nav-tabs-link-active-color: #fa5959;
-$nav-tabs-link-hover-border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #fa5959;
-$nav-tabs-link-active-border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #fa5959;
+$nav-tabs-link-active-color: $secondary;
+$nav-tabs-link-hover-border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) $secondary;
+$nav-tabs-link-active-border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) $secondary;
 
 $card-border-color: rgba(255, 255, 255, 0);
 
-//NO FUNCIONA
-// $card-box-shadow: 0 .5rem 1rem rgba(black, .15); 
 
-$accordion-color: gray;
+$accordion-color: $gray;
 $accordion-bg: rgba(255, 255, 255, 0);
-$accordion-icon-color: black;
-$accordion-icon-active-color: #fa5959;
+$accordion-icon-color: $black;
+$accordion-icon-active-color: $secondary;
 $accordion-button-active-bg: rgba(255, 255, 255, 0);
 $accordion-button-focus-border-color: rgba(255, 255, 255, 0);
 $accordion-button-focus-box-shadow: 0;
-$accordion-button-active-color: gray;
+$accordion-button-active-color: $gray;
 $accordion-border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); 
 $accordion-border-radius: 2px;
 
 
 
-$form-feedback-invalid-color: #fa5959;
-$form-feedback-icon-invalid-color: #fa5959;
+$form-feedback-invalid-color: $secondary;
+$form-feedback-icon-invalid-color: $secondary;
+
+$nav-link-color: $gray;
+$nav-link-hover-color: $secondary;
+$nav-tabs-link-active-color: $secondary;
+$nav-tabs-link-focus-color: $secondary;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+
 .btn-primary:hover {
-  background-color: white;
-  color: #5265e1;
-  border: solid 2px #5265e1;
+  background-color: $white;
+  color: $primary;
+  border: solid 2px $primary;
 }
 
 .footIcon,
 .btn-secondary {
-  color: white;
+  color: $white;
 }
 
 .footIcon:hover{
-  background-color: white;
-  color: #fa5959;
+  background-color: $white;
+  color: $secondary;
   border: none;
 }
 
 .btn-secondary:hover {
-  background-color: white;
-  color: #fa5959;
-  border: solid 2px #fa5959;
+  background-color: $white;
+  color: $secondary;
+  border: solid 2px $secondary;
 }
 
-.btn-gray,
-.nav-link {
-  color: gray;
-}
+
 
 .btn-gray:hover,
 .btn-gray:focus,
-.btn-gray:active,
-.nav-link:hover,
-.nav-link:active,
-.nav-link:focus {
-  color: #fa5959;
+.btn-gray:active{
+  color: $secondary;
   border: solid 2px rgba(255, 255, 255, 0);
   
 }
@@ -85,7 +86,7 @@ $form-feedback-icon-invalid-color: #fa5959;
 }
 
 .accordion-button:hover{
-color: #fa5959;
+color: $secondary;
 }
 
 
