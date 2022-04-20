@@ -13411,16 +13411,12 @@ fieldset:disabled .btn {
   border-top: solid 2px rgba(255, 255, 255, 0);
 }
 
-.accordion-button:hover {
-  color: #fa5959;
-}
-
 .downCard {
   max-width: 15rem;
   -webkit-box-shadow: 9px 3px 15px 4px #69696962;
           box-shadow: 9px 3px 15px 4px #69696962;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .downCard:hover {
@@ -13429,6 +13425,10 @@ fieldset:disabled .btn {
 
 .accordion-button {
   border: 0;
+}
+
+.accordion-button:hover {
+  color: #fa5959;
 }
 
 .card-group > :nth-child(2) {
